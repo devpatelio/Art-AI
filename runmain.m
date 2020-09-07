@@ -11,7 +11,7 @@ img_size = size(A);
 
 X = reshape(A, img_size(1) * img_size(2), 3);
 
-K = 8;  %% CHANGE THIS VALUE FOR DIFFERENT CLUSTERS AND COLORS
+K = 16;  %% CHANGE THIS VALUE FOR DIFFERENT CLUSTERS AND COLORS
 max_iters = 10; %%CHANGE THIS VALUE FOR ACCURACY IN TERMS OF CONVERGENCE
 
 initial_centroids = kMeansInitCentroids(X, K);
